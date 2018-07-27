@@ -20,6 +20,22 @@ public class HelloString {
 		int stringToInt = Integer.parseInt(intToString);
 		System.out.println(stringToInt);
 		
+		String uppercaseStr = "BIG";
+		String lowercaseStr = "big";
+		
+		// Using .equals versus using .equalsIgnoreCase
+		if (uppercaseStr.equals(lowercaseStr)) {
+			System.out.println("They are equal.");
+		} else {
+			System.out.println("Because they are different cases, they are not equal");
+		}
+		
+		if (uppercaseStr.equalsIgnoreCase(lowercaseStr)) {
+			System.out.println("Now they are equal!");
+		}
+		
+		String letters = "abcde";
+		System.out.println(letters.charAt(0));
 		
 	}
 }
