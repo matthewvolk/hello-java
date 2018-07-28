@@ -1,4 +1,4 @@
-public class HelloInterface extends HelloAbstract implements HelloInterfaces {
+public class HelloInterface extends HelloAbstract implements HelloInterfaces, Cloneable {
 	int numOfWheels = 2;
 	double theSpeed = 0;
 	int carStrength = 0;
@@ -32,4 +32,18 @@ public class HelloInterface extends HelloAbstract implements HelloInterfaces {
 	public int getCarStrength() {
 		return this.carStrength;
 	};
+	
+	public String toString() {
+		return "Num of Wheels: " + this.numOfWheels;
+	}
+	
+	public Object clone() {
+		HelloInterface car;
+		try {
+			car = (HelloInterface) super.clone();
+		} catch (CloneNotSupportedException e) {
+			return null;
+		}
+		return car;
+	}
 }
