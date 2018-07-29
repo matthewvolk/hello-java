@@ -1,3 +1,4 @@
+package HelloInterface;
 public class HelloObject {
 	public static void main(String[] args) {
 		// Every thing in Java that isn't a primitive inherits from the Object class

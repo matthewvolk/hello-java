@@ -1,3 +1,4 @@
+package HelloArray;
 // Array lists are exactly like arrays, however they can dynamically resize if you delete or modify elements within.
 import java.util.ArrayList;
 import java.util.Iterator;

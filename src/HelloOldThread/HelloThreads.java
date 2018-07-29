@@ -1,3 +1,4 @@
+package HelloOldThread;
 public class HelloThreads {
 	public static void main(String[] args) {
 		Thread getTime = new HelloThread();

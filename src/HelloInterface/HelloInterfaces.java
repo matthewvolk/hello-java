@@ -1,3 +1,4 @@
+package HelloInterface;
 // The Java term of "interface" is quite restricted. Basically, any function declaration is an interface:
 // void call_me(int times);
 

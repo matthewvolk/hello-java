@@ -1,3 +1,5 @@
+package HelloInterface;
+
 public class HelloInterface extends HelloAbstract implements HelloInterfaces, Cloneable {
 	int numOfWheels = 2;
 	double theSpeed = 0;

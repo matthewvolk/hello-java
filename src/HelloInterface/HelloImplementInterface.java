@@ -1,3 +1,4 @@
+package HelloInterface;
 public class HelloImplementInterface {
 	public static void main(String[] args) {
 		HelloInterface car = new HelloInterface(4, 65, 10);

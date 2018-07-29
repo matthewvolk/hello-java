@@ -1,3 +1,4 @@
+package HelloArray;
 import java.util.Arrays;
 
 // A file cannot contain more than one PUBLIC class

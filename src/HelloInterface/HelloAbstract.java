@@ -1,3 +1,4 @@
+package HelloInterface;
 /* Java does not allow you to inherit from multiple different classes
  * What do you do when you want to add additional functionality to a class
  * that's already inheriting from another class?
