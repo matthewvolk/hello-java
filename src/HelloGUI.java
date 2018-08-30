@@ -9,7 +9,7 @@ public class HelloGUI extends JFrame {
 	}
 	
 	public HelloGUI() {
-		this.setSize(400,400);
+		this.setSize(600,600);
 		
 		Toolkit tk = Toolkit.getDefaultToolkit();
 		Dimension dim = tk.getScreenSize();
@@ -21,7 +21,15 @@ public class HelloGUI extends JFrame {
 		
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
-		this.setTitle("My First Frame");
+		this.setTitle("Hey.");
+		
+		JPanel thePanel = new JPanel();
+		JLabel label1 = new JLabel("futtbuzz.");
+		
+		label1.setToolTipText("buzzfut");
+		
+		thePanel.add(label1);
+		this.add(thePanel);
 		
 		this.setVisible(true);
 	}
