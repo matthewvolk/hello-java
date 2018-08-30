@@ -28,7 +28,11 @@ public class HelloGUI extends JFrame {
 		
 		label1.setToolTipText("buzzfut");
 		
+		JButton button1 = new JButton("Full Send");
+		
+		
 		thePanel.add(label1);
+		thePanel.add(button1);
 		this.add(thePanel);
 		
 		this.setVisible(true);
